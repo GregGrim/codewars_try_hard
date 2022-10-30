@@ -1,3 +1,3 @@
 function simplify(poly) {
-  //your code here
+  console.log(poly);
 }
