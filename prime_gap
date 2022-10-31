@@ -3,7 +3,7 @@ function gap(g, m, n) {
   for (m; m <= n; m++) {
     let s = Math.floor(Math.sqrt(m));
     let i = 2;
-    while (i < s+1 && m % i !== 0) {
+    while (i < s + 1 && m % i !== 0) {
       i++;
     }
     i--;
